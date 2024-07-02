@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar start */
+header {
+  height: 110vh;
+  background-image: url(image/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+.navbar {
+  width: 100%;
+  background-color: #000000;
+}
+.container {
+  width: 90%;
+  margin-right: auto;
+  background-color: #000000;
+  padding-right: auto;
+  display: flex;
+}
+nav {
+  top: 0;
+  position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: "roboto";
+  font-size: 15px;
+  font-weight: 300;
+}
+.logo {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li {
+  padding: 20px 30px;
+}
+.search {
+  width: 10%;
+  font-size: 30px;
+  display: flex;
+  padding-left: 60px;
+}
+.search i {
+  padding: 10px;
+}
+.container-1 {
+  width: 100%;
+  margin: auto;
+  padding-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.con-1 ul {
+  display: flex;
+  gap: 30px;
+}
+.con-1 ul li {
+  list-style: none;
+}
+.con-1 ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: roboto;
+  font-weight: 450;
+  font-size: 14px;
+}
+/* navbar 1 end */
+/* banner start  */
+.banner {
+  margin: auto;
+  background-image: url(image/riverfront-foot-over-bridge-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  padding-top: 400px;
+  font-family: roboto;
+}
+.banner h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+.banner p {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+/* navbar 2end */
+/* page 1 end  */
+.section {
+}
+.container-2 {
+}
+.container-2 h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+  font-weight: 540;
+}
+.con1 {
+  padding-top: 40px;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.sec1 {
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
+.sec1 img {
+  height: auto;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  width: 360px;
+}
+.sec1 h3 {
+  font-family: Rufina;
+  font-size: 30px;
+  padding-top: 20px;
+  font-weight: 500;
+}
+.sec1 p {
+  padding-top: 20px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 300;
+}
+.sec1 button {
+  margin-top: 20px;
+  /* margin-left: 125px; */
+  font-family: Montserrat;
+  font-size: 15px;
+  padding: 10px;
+  background-color: #01c4f7;
+  border: none;
+  color: #fff;
+}
+.sec1 button:hover,
+button :active {
+  transition: 0.3s all linear;
+  transform: scale(1.1);
+  background-color: green;
+  size: 20px;
+}
+/* page 2 end */
+.section1 {
+  width: 100%;
+  background-color: #d3d0d01e;
+}
+.cantainer-3 {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  height: 400px;
+}
+.can3-1 {
+  width: 50%;
+}
+.can3-1 h2 {
+  font-family: "Rufina", Sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.can3-1 p {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+.can3-1 button {
+  margin-top: 20px;
+  /* margin-left: 125px; */
+  font-family: Montserrat;
+  font-size: 15px;
+  padding: 10px;
+  background-color: #01c4f7;
+  border: none;
+  color: #fff;
+}
+.can3-1 button:hover,
+button :active {
+  transition: 0.3s all linear;
+  transform: scale(1.1);
+  background-color: green;
+  size: 20px;
+}
+
+.can3-2 {
+  width: 50%;
+  /* background-image: url(image/youtube-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.can3-2 img {
+  height: 100%;
+  width: 100%;
+}
+.cantainer-4 {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  height: 400px;
+}
+.can4-1 {
+  width: 50%;
+}
+.can4-2 {
+  width: 50%;
+  padding-top: 100px;
+}
+.can4-2 h2 {
+  font-family: "Rufina", Sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.can4-2 p {
+  padding-top: 20px;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+.cantainer-5 {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  height: 400px;
+}
+.can5-2 {
+  width: 50%;
+}
+.can5-1 {
+  width: 50%;
+  padding-top: 50px;
+}
+.can5-1 h2 {
+  font-family: "Rufina", Sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.can5-1 p {
+  padding-top: 20px;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+.section2 {
+  width: 100%;
+}
+.cantainer2-1 {
+  width: 90%;
+  margin: auto;
+}
+.can2-1-1 {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.can2-1-1 h2 {
+  font-family: "Rufina", Sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.can2-1-1 p {
+  padding-top: 20px;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+.can2-1-2 {
+  gap: 40px;
+  width: 100%;
+  display: flex;
+  height: 300px;
+}
+.can2-1-2 button {
+  position: absolute;
+  background-color: #01c4f7;
+  border: none;
+  width: 305px;
+  height: 50px;
+  margin-top: 250px;
+  color: #fff;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.can2-1-2 img {
+  margin-left: 13px;
+  height: 261px;
+  width: 280px;
+}
+
+.can2-1-2 img:hover,
+img :active {
+  transition: 0.3s all linear;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.cantainer3-3-1 {
+  width: 90%;
+  margin: 30px auto;
+}
+.can-3-3-1 {
+  text-align: center;
+}
+.can-3-3-1 h2 {
+  margin-left: 56px;
+  font-family: "Rufina", Sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-top: 50px;
+}
+.can-3-3-1 button {
+  position: absolute;
+  background-color: #01c4f7;
+  border: none;
+  width: 390px;
+  height: 50px;
+  margin-top: 250px;
+  color: #fff;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.can-3-3-1 img {
+  margin-top: 60px;
+  margin-left: 56px;
+  width: 280px;
+}
+.can-3-3-1 img:hover,
+img :active {
+  transition: 0.3s all linear;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.cantainer3-4-4 {
+  padding: 50px;
+  margin-top: 150px;
+  display: flex;
+  width: 100%;
+  background-color: #9e969618;
+  justify-content: space-between;
+  height: 350px;
+}
+.can-3-3-2 h5 {
+  font-family: "robpto", Sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+.can-3-3-2 marquee {
+  color: #01c4f7;
+  height: 181px;
+  width: 343px;
+}
+.section4 {
+  width: 100%;
+}
+.first {
+  background-color: #545454;
+  height: 50px;
+  color: #fff;
+}
+.first h2 {
+  padding-left: 250px;
+  padding-top: 10px;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Montserrat", Sans-serif;
+}
+.secnd {
+  background: url(image/footer-bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  background-color: #070707;
+  display: flex;
+  filter: brightness(2);
+}
+/* .secnd1 {
+  width: 90%;
+} */
+.secnd iframe {
+  height: 250px;
+  width: 350px;
+}
+.thard {
+  width: 100%;
+  height: 60px;
+  background-color: #6ec1e4;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-family: roboto;
+  font-size: 15px;
+}
+.four {
+  width: 100%;
+  height: 70px;
+  background-color: #545454;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  font-family: roboto;
+  font-size: 19px;
+  font-weight: 300;
+}

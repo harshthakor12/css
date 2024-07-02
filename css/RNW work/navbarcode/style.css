@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.nav {
+  background-color: crimson;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: aliceblue;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  font-size: 18px;
+  color: aliceblue;
+  font-weight: bold;
+  margin-right: 25px;
+}
+button {
+  background-color: black;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90px;
+}
+button a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+/* 2 navbar */
+header {
+  position: relative;
+}
+.navbar2 {
+  background-color: aqua;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+
+.UberEatsHome {
+  margin-left: 20px;
+  margin-top: 20px;
+  gap: 10px;
+  display: flex;
+  font-family: Poppins;
+  font-size: 22px;
+}
+.login {
+  margin-right: 20px;
+  margin-top: 20px;
+  gap: 10px;
+  display: flex;
+}
+.white button {
+  margin-bottom: 5px;
+  border: none;
+  height: 40px;
+  width: 70px;
+  border-radius: 500px;
+  background-color: #ffffff;
+}
+
+.white button a {
+  color: black;
+  text-decoration: none;
+}
+.white :hover {
+  background-color: aliceblue;
+}
+.black button {
+  border: none;
+  height: 40px;
+  width: 70px;
+  border-radius: 500px;
+  background-color: black;
+}
+.black button a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.black :hover {
+  background-color: rgb(98, 98, 98);
+}
