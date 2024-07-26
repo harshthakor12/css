@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* topbar start */
+.topbar {
+  background-color: #174973;
+}
+.img1 {
+  z-index: 2;
+  width: 100px;
+  position: fixed;
+  top: 300px;
+  right: 0;
+  background-color: white;
+  align-items: center;
+  right: -85px;
+  display: flex;
+}
+.img1:hover {
+  position: fixed;
+  right: 0;
+  transition: 1s;
+}
+.img2 {
+  width: 100px;
+  position: fixed;
+  z-index: 2;
+  top: 360px;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  right: -85px;
+}
+
+.img2:hover {
+  position: fixed;
+  right: 0;
+  transition: 1s;
+}
+.img3 {
+  width: 100px;
+  z-index: 2;
+  position: fixed;
+  top: 420px;
+  right: 0;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  right: -85px;
+}
+
+.img3:hover {
+  position: fixed;
+  right: 0;
+  transition: 1s;
+}
+.img4 {
+  width: 100px;
+  z-index: 2;
+  position: fixed;
+  top: 480px;
+  right: 0;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  right: -85px;
+}
+
+.img4:hover {
+  position: fixed;
+  right: 0;
+  transition: 1.5s;
+}
+.container {
+  background-color: green;
+  height: 100vh;
+  text-align: center;
+}
+.container h4 {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1.15em;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.container h1 {
+  color: white;
+  font-style: italic;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1.2em;
+  text-transform: capitalize;
+  font-size: 69px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.contant {
+  color: white;
+  background-color: rgba(35, 75, 35, 0.823);
+  border-radius: 20px;
+  padding: 10px;
+}
+.contant img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+.contant img:hover {
+  border-radius: 50%;
+}
+.contant p {
+  padding: 20px;
+}
+.contant h6 {
+  font-size: 21px;
+  font-style: italic;
+  line-height: 1.4em;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+  text-transform: capitalize;
+}
+.contant button {
+  padding: 15px 30px;
+  font-family: Roboto;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.contant button:hover {
+  background-color: white;
+  color: #000;
+}
+.con {
+  gap: 20px;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
